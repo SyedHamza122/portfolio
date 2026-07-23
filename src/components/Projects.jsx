@@ -3,7 +3,7 @@ function Projects() {
     <section id="projects">
 
       <h2 className="section-title">
-        My <span>Projects</span>
+        Featured <span>Projects</span>
       </h2>
 
       <div className="project-grid">
@@ -12,22 +12,22 @@ function Projects() {
 
         <div className="project-card">
 
-          <img src="/dehazing.png" alt="Dehazing Project" />
+          <img src="/dehazing.png" alt="Automotive Image Dehazing" />
 
           <div className="project-content">
 
-            <h3>Dehazing in Automotive Environment</h3>
+            <h3>AI Image Dehazing for Autonomous Driving</h3>
 
             <p>
-              AI-powered image dehazing system for improving
-              visibility in autonomous driving using Deep Learning
-              and Computer Vision.
+              Final Year Project focused on improving road visibility in
+              foggy environments using Artificial Intelligence, Deep
+              Learning, and Computer Vision techniques.
             </p>
 
             <div className="project-tags">
               <span>Python</span>
-              <span>OpenCV</span>
               <span>PyTorch</span>
+              <span>OpenCV</span>
               <span>Deep Learning</span>
             </div>
 
@@ -37,12 +37,13 @@ function Projects() {
               rel="noreferrer"
               className="github-btn"
             >
-              View on GitHub
+              View Source Code
             </a>
 
           </div>
 
         </div>
+
 
         {/* Project 2 */}
 
@@ -52,11 +53,12 @@ function Projects() {
 
           <div className="project-content">
 
-            <h3>Face Mask Detection</h3>
+            <h3>Real-Time Face Mask Detection</h3>
 
             <p>
-              CNN based intelligent system that detects whether
-              a person is wearing a face mask in real time.
+              Computer Vision application capable of detecting face masks
+              in real-time using Convolutional Neural Networks and
+              OpenCV.
             </p>
 
             <div className="project-tags">
@@ -72,12 +74,13 @@ function Projects() {
               rel="noreferrer"
               className="github-btn"
             >
-              View on GitHub
+              View Source Code
             </a>
 
           </div>
 
         </div>
+
 
         {/* Project 3 */}
 
@@ -90,15 +93,15 @@ function Projects() {
             <h3>Multi-Class Emotion Detection</h3>
 
             <p>
-              NLP model for detecting multiple human emotions
-              from textual input using Machine Learning and
-              Deep Learning.
+              Natural Language Processing system capable of identifying
+              multiple human emotions from textual input using Machine
+              Learning models.
             </p>
 
             <div className="project-tags">
               <span>Python</span>
               <span>NLP</span>
-              <span>Scikit-learn</span>
+              <span>Scikit-Learn</span>
               <span>PyTorch</span>
             </div>
 
@@ -108,7 +111,7 @@ function Projects() {
               rel="noreferrer"
               className="github-btn"
             >
-              View on GitHub
+              View Source Code
             </a>
 
           </div>

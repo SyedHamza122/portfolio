@@ -8,10 +8,12 @@ function Education() {
 
       <div className="education-card">
 
+        {/* Education Icon */}
         <div className="education-icon">
           🎓
         </div>
 
+        {/* Education Details */}
         <div className="education-info">
 
           <h3>
@@ -23,13 +25,13 @@ function Education() {
           </h4>
 
           <p>
-            2022 - 2026
+            2022 — 2026
           </p>
 
           <span>
-            Focused on Artificial Intelligence, Machine Learning,
-            Deep Learning, Computer Vision, NLP and Software
-            Development.
+            Studied Artificial Intelligence with a focus on Machine Learning,
+            Deep Learning, Computer Vision, Natural Language Processing,
+            Software Development, and intelligent technology solutions.
           </span>
 
         </div>

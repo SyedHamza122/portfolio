@@ -1,38 +1,55 @@
 function Hero() {
   return (
-    <section id="home">
+    <section id="home" className="hero-section">
       <div className="hero-container">
 
-        {/* Left Side Image */}
+        {/* Left Side - Profile Image */}
         <div className="hero-image">
-          <img src="/profile.png" alt="Syed Hamza" />
+          <div className="hero-image-glow"></div>
+
+          <img
+            src="/profile.png"
+            alt="Syed Hamza - Web Developer and Client Growth Partner"
+          />
         </div>
 
-        {/* Right Side Content */}
+        {/* Right Side - Hero Content */}
         <div className="hero-text">
 
           <span className="hero-tag">
-                        👋 Hello, I'm
+            👋 Hello, I'm Syed Hamza
           </span>
 
-          <h1>Syed Hamza</h1>
+          <h1>
+            Web Developer
+            <span className="hero-divider"> | </span>
+            Client Growth Partner
+          </h1>
 
           <h2>
-            Python Developer | Machine Learning Engineer
+            Building Digital Experiences & Growth Systems
           </h2>
 
           <p>
-            Passionate Artificial Intelligence graduate with hands-on
-            experience in Machine Learning, Deep Learning, Computer Vision,
-            Natural Language Processing, and AI-powered software development.
-            Dedicated to building intelligent applications that solve
-            real-world problems through Artificial Intelligence.
+            I help businesses, founders, AI professionals, and service
+            providers build a stronger digital presence through modern web
+            development, AI-powered solutions, and strategic client growth.
           </p>
 
+          <p>
+            My work combines technology and business strategy to create
+            digital experiences that build trust, attract the right audience,
+            and turn online visibility into meaningful opportunities.
+          </p>
+
+          {/* Hero Buttons */}
           <div className="hero-buttons">
 
-            <a href="#projects" className="primary-btn">
-              View Projects
+            <a
+              href="#projects"
+              className="primary-btn"
+            >
+              View My Work
             </a>
 
             <a
@@ -52,6 +69,26 @@ function Hero() {
             >
               GitHub
             </a>
+
+          </div>
+
+          {/* Professional Highlights */}
+          <div className="hero-highlights">
+
+            <div className="hero-highlight">
+              <strong>Web Development</strong>
+              <span>Modern & Responsive</span>
+            </div>
+
+            <div className="hero-highlight">
+              <strong>AI & Automation</strong>
+              <span>Intelligent Solutions</span>
+            </div>
+
+            <div className="hero-highlight">
+              <strong>Client Growth</strong>
+              <span>Strategy & Execution</span>
+            </div>
 
           </div>
 
