@@ -1654,6 +1654,190 @@ footer p {
   }
 
 }
+
+
+/* =========================================================
+   NAVY & ORANGE PROFILE THEME
+========================================================= */
+
+body {
+  background: #0f172a;
+  color: #e5edf8;
+}
+
+nav {
+  background: rgba(15, 23, 42, 0.9);
+  border-bottom-color: rgba(248, 250, 252, 0.1);
+}
+
+.logo,
+nav ul li a:hover,
+.hero-text h2,
+.hero-divider,
+.section-title span,
+.skill-card h3,
+.education-info h4,
+.contact-card-label {
+  color: #f07a3e;
+}
+
+nav ul li a {
+  color: #d6deea;
+}
+
+#home {
+  background:
+    radial-gradient(circle at 8% 20%, rgba(207, 86, 32, 0.35), transparent 32%),
+    radial-gradient(circle at 92% 75%, rgba(42, 58, 89, 0.55), transparent 34%),
+    #0f172a;
+}
+
+.hero-image-glow {
+  background: linear-gradient(135deg, rgba(207, 86, 32, 0.42), rgba(42, 58, 89, 0.5));
+}
+
+.hero-image img {
+  border-color: #f8fafc;
+  box-shadow:
+    0 25px 60px rgba(207, 86, 32, 0.22),
+    0 0 0 10px rgba(207, 86, 32, 0.15);
+}
+
+.hero-image img:hover {
+  box-shadow:
+    0 35px 70px rgba(207, 86, 32, 0.3),
+    0 0 0 10px rgba(207, 86, 32, 0.25);
+}
+
+.hero-tag,
+.project-tags span,
+.education-icon,
+.focus-icon,
+.contact-icon {
+  background: rgba(240, 122, 62, 0.16);
+  color: #f9a67c;
+}
+
+.hero-text h1,
+.section-title,
+.section-heading h2,
+.about-text h3,
+.focus-card h4,
+.education-info h3,
+.contact-form-heading h3,
+.contact-card strong {
+  color: #f8fafc;
+}
+
+.hero-text p,
+.section-heading > p,
+.about-text p,
+.focus-card p,
+.education-info span,
+.contact-intro p,
+.contact-card small,
+.contact-form-heading p {
+  color: #b9c5d6;
+}
+
+.primary-btn,
+.github-btn,
+.contact-submit {
+  background: #cf5620;
+  box-shadow: 0 10px 25px rgba(207, 86, 32, 0.28);
+}
+
+.primary-btn:hover,
+.github-btn:hover,
+.contact-submit:hover {
+  background: #b94818;
+  box-shadow: 0 15px 30px rgba(207, 86, 32, 0.38);
+}
+
+.secondary-btn {
+  background: transparent;
+  border-color: #f07a3e;
+  color: #f9a67c;
+}
+
+.secondary-btn:hover {
+  background: #cf5620;
+  color: #ffffff;
+  box-shadow: 0 12px 25px rgba(207, 86, 32, 0.25);
+}
+
+.hero-highlight,
+.project-card,
+.skill-card,
+.education-card,
+.contact-card,
+.contact-form {
+  background: #172235;
+  border-color: rgba(249, 166, 124, 0.16);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+.hero-highlight strong,
+.education-info p {
+  color: #edf2f7;
+}
+
+.hero-highlight span {
+  color: #aebccc;
+}
+
+.about-section {
+  background: #111c2e;
+}
+
+.focus-card {
+  background: #172235;
+  border-color: rgba(249, 166, 124, 0.14);
+}
+
+.focus-card:hover,
+.contact-card:hover {
+  border-color: rgba(249, 166, 124, 0.56);
+  box-shadow: 0 22px 45px rgba(0, 0, 0, 0.28);
+}
+
+.skill-list span {
+  background: rgba(240, 122, 62, 0.14);
+  color: #f9a67c;
+}
+
+.skill-list span:hover,
+.contact-card:hover .contact-icon {
+  background: #cf5620;
+  color: #ffffff;
+}
+
+.contact-form label {
+  color: #d6deea;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background: #0f172a;
+  border-color: #2c3d55;
+  color: #edf2f7;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #8290a3;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #f07a3e;
+  background: #111c2e;
+  box-shadow: 0 0 0 4px rgba(240, 122, 62, 0.14);
+}
+
+footer {
+  background: #9f3d18;
+}
 /* =========================================================
    FOOTER LINKS
 ========================================================= */
