@@ -22,7 +22,7 @@ html {
 
 body {
   font-family: 'Poppins', sans-serif;
-  background: #f1f5f9;
+  background: #e9eff7;
   color: #1f2937;
   overflow-x: hidden;
   line-height: 1.6;
@@ -123,7 +123,7 @@ nav ul li a:hover {
       rgba(239, 246, 255, 0.8),
       transparent 30%
     ),
-    #f1f5f9;
+    #e9eff7;
 }
 
 .hero-section {
@@ -1272,7 +1272,7 @@ footer p {
 ========================================================= */
 
 .about-section {
-  background: #ffffff;
+  background: #f4f7fb;
 }
 
 .about-container {
@@ -1388,7 +1388,7 @@ footer p {
 
   padding: 22px;
 
-  background: #f8fbff;
+  background: #eef4fb;
 
   border: 1px solid #e5efff;
 

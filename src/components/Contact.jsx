@@ -12,9 +12,9 @@ function Contact() {
     },
     {
       label: "LinkedIn",
-      value: "linkedin.com/in/syedhamza07",
+      value: "linkedin.com/in/syedmuhammadhamzabukhari",
       detail: "Connect professionally",
-      href: "https://www.linkedin.com/in/syedhamza07",
+      href: "https://www.linkedin.com/in/syedmuhammadhamzabukhari",
       icon: FaLinkedinIn,
     },
   ];

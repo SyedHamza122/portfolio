@@ -5,25 +5,25 @@ function About() {
         <div className="section-heading">
           <span className="section-label">About Me</span>
           <h2>
-            Building digital solutions that create <span>real growth</span>
+            Building reliable digital solutions for <span>meaningful growth</span>
           </h2>
           <p>
-            I combine thoughtful web development, practical AI solutions, and
-            client-focused strategy to help ideas become useful digital experiences.
+            I bring together modern web development, practical AI, and
+            client-focused strategy to turn ambitious ideas into dependable digital experiences.
           </p>
         </div>
 
         <div className="about-content">
           <div className="about-text">
-            <h3>Technology with a clear business purpose.</h3>
+            <h3>Technology designed around clear business outcomes.</h3>
             <p>
-              I am Syed Hamza, a web developer and AI enthusiast focused on
-              creating modern, responsive, and user-friendly digital products.
+              I am Syed Hamza, a web developer and AI practitioner focused on
+              delivering responsive, user-centred products that are built to perform.
             </p>
             <p>
-              My approach brings together clean development, intelligent
-              technology, and growth-minded thinking to help businesses build
-              trust, reach the right audience, and create meaningful opportunities.
+              Every project is approached with a balance of clean engineering,
+              thoughtful user experience, and measurable growth goals—helping
+              businesses build trust, reach the right audience, and create lasting value.
             </p>
           </div>
 
@@ -32,7 +32,7 @@ function About() {
               <div className="focus-icon" aria-hidden="true">💻</div>
               <div>
                 <h4>Web Development</h4>
-                <p>Responsive, polished websites designed around people and business goals.</p>
+                <p>Fast, responsive websites that present your business with clarity and confidence.</p>
               </div>
             </article>
 
@@ -40,7 +40,7 @@ function About() {
               <div className="focus-icon" aria-hidden="true">🤖</div>
               <div>
                 <h4>AI &amp; Machine Learning</h4>
-                <p>Practical AI-powered solutions that make technology more useful.</p>
+                <p>Practical AI solutions that turn data and automation into useful outcomes.</p>
               </div>
             </article>
 
@@ -48,7 +48,7 @@ function About() {
               <div className="focus-icon" aria-hidden="true">📈</div>
               <div>
                 <h4>Client Growth</h4>
-                <p>Digital strategy that supports visibility, trust, and stronger client relationships.</p>
+                <p>Focused digital strategy that strengthens visibility, trust, and client relationships.</p>
               </div>
             </article>
           </div>

@@ -53,7 +53,7 @@ function Hero() {
             </a>
 
             <a
-              href="https://www.linkedin.com/in/syedhamza07"
+              href="https://www.linkedin.com/in/syedmuhammadhamzabukhari"
               target="_blank"
               rel="noreferrer"
               className="secondary-btn"
